@@ -3,8 +3,8 @@ import Link from "next/link";
 
 function Login() {
   return (
-    <div className="w-full h-screen flex">
-      <div className="flex flex-1 items-center justify-center">
+    <div className="w-full h-screen flex flex-col  md:flex-row">
+      <div className="flex   md:flex-1 items-center justify-center">
         <div className="w-28 h-28 ">
           <img
             className="w-fit"
@@ -12,7 +12,7 @@ function Login() {
           />
         </div>
       </div>
-      <div className="flex flex-1 bg-green-500 justify-center items-center ">
+      <div className="flex  flex-1 bg-green-500 justify-center items-center ">
         <div className="flex  flex-col gap-3 p-4">
           <label className="font-medium ">Username</label>
           <input className="w-96 h-10 p-4 " placeholder="PlaceHolder"></input>
