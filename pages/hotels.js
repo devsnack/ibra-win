@@ -1,6 +1,13 @@
 import Link from "next/link";
 import React, { useState } from "react";
-const hotels = [{ name: "AZ" }, { name: "sheraton" }];
+const hotels = [
+  { name: "AZ" },
+  { name: "sheraton" },
+  { name: "Henri Wartner" },
+  { name: "Le Bristol" },
+  { name: "La Reserve" },
+  { name: "Cheval Blanc" },
+];
 function HotelsPage() {
   const [selected, setSelected] = useState("AZ");
   return (
